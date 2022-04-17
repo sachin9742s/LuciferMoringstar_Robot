@@ -38,21 +38,19 @@ Bot Owner Only
 
 ○Dont Spam Me...🤒
 
-©️MᴀɪɴᴛᴀɪɴᴇD Bʏ :- [SACHIN S](https://t.me/sachin_official_admin)
+©️MᴀɪɴᴛᴀɪɴᴇD Bʏ :- [𝚂𝚊𝚌𝚑𝚒𝚗 𝚂](https://t.me/sachin_official_admin)
 
 @KicchaRequest
 """
 
 ABOUT = """
-➥ Name :  [Rocky_autofilter_Robot](https://t.me/Rocky_autofilterBOT)
-➥ Creator : [Sachin S](https://t.me/sachin_official_admin)
-➥ Credits : Everyone in this journey
-➥ Language : Python3
-➥ Library : Pyrogram Asyncio 1.13.0
-➥ Server : [Heroku](https://herokuapp.com/)
-➥ Source Code : [👉 Click Here](https://github.com/sachin9742s/Rocky_autofilter_Robot)
-➥ Database : [MongoDB](https://www.mongodb.com/)
-➥ Build Status : V3.1 [BETA]
-➥ Request Group : [Kiccha Request](https://t.me/KicchaRequest)
-➥ Movie Channel :  [KICCHA REQUEST Channel](https://t.me/gd_film)
+➥ 𝙽𝚊𝚖𝚎 :  [𝚁𝚘𝚌𝚔𝚢](https://t.me/Rocky_autofilterBOT)
+➥ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : [𝚂𝚊𝚌𝚑𝚒𝚗 𝚂](https://t.me/sachin_official_admin)
+➥ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : 𝙿𝚢𝚝𝚑𝚘𝚗𝟹
+➥ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 : 𝙿𝚢𝚛𝚘𝚐𝚛𝚊𝚖 𝙰𝚜𝚢𝚗𝚌𝚒𝚘 𝟷.𝟷𝟹.𝟶
+➥ 𝚂𝚎𝚛𝚟𝚎𝚛 : [𝙷𝚎𝚛𝚘𝚔𝚞](https://herokuapp.com/)
+➥ 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 : [👉 𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎](https://github.com/sachin9742s/Rocky_autofilter_Robot)
+➥ 𝙳𝚊𝚝𝚊𝚋𝚊𝚜𝚎: [𝙼𝚘𝚗𝚐𝚘𝙳𝙱](https://www.mongodb.com/)
+➥ 𝙱𝚞𝚒𝚕𝚍 𝚂𝚝𝚊𝚝𝚞𝚜: 𝚅𝟹.𝟷 [𝙱𝙴𝚃𝙰]
+➥ 𝙶𝚛𝚘𝚞𝚙 : [𝙺𝚒𝚌𝚌𝚑𝚊 𝚁𝚎𝚚𝚞𝚎𝚜𝚝](https://t.me/KicchaRequest)
 """
