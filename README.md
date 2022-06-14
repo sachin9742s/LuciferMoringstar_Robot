@@ -2,7 +2,7 @@
 
 <img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Robot-Logo.jpg" alt="Rocky autofilter Robot Logo">
 
-<img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Robot-Logo.jpg"/>   <img src="https://img.shields.io/github/forks/sachin9742s/Rocky_autofilter_Robot?style=social"/>
+   <img src="https://img.shields.io/github/forks/sachin9742s/Rocky_autofilter_Robot?style=social"/>
 
 ----
 
