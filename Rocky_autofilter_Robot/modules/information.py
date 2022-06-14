@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,16 +20,16 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Telegram Link : https://telegram.dog/Kiccharequest
+# Repo Link : https://github.com/sachin9742s/Rocky_autofilter_Robot
+# License Link : https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE
 
 import os
 from pyrogram import Client as lucifermoringstar_robot, filters, enums
 from LuciferMoringstar_Robot.functions import get_file_id, extract_user
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@lucifermoringstar_robot.on_message(filters.command('id'))
+@Rocky_autofilter_Robot.on_message(filters.command('id'))
 async def showid(client, update):
     chat_type = update.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -55,7 +55,7 @@ async def showid(client, update):
  
 
 
-@lucifermoringstar_robot.on_message(filters.command(["info"]))
+@Rocky_autofilter_Robot.on_message(filters.command(["info"]))
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text("`𝙵𝙴𝚃𝙲𝙷𝙸𝙽𝙶 𝚄𝚂𝙴𝚁 𝙸𝙽𝙵𝙾...`")
@@ -96,13 +96,13 @@ async def who_is(client, message):
     if chat_photo:
         local_user_photo = await client.download_media(message=chat_photo.big_file_id)
         
-        pr0fess0r_99 = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
-        pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-        await message.reply_photo(photo=local_user_photo, reply_markup=pr0fess0r_99, caption=message_out_str)        
+        sachin9742s = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
+        sachin9742s = InlineKeyboardMarkup(sachin9742s)
+        await message.reply_photo(photo=local_user_photo, reply_markup=sachin9742s, caption=message_out_str)        
         os.remove(local_user_photo)
     else:
-        pr0fess0r_99 = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
-        pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-        await message.reply_text(text=message_out_str, reply_markup=pr0fess0r_99, disable_notification=True)        
+        sachin9742s = [[ InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close') ]]
+        sachin9742s = InlineKeyboardMarkup(sachin9742s)
+        await message.reply_text(text=message_out_str, reply_markup=sachin9742s, disable_notification=True)        
 
     await status_message.delete()
