@@ -1,8 +1,8 @@
 ###  <a href="https://t.me/Kiccharequest">Rocky_autofilter_Robot</a>
 
-<img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/logo/Rocky_autofilter_Robot-Logo.jpeg" alt="LuciferMoringstar Robot Logo">
+<img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Robot-Logo.jpg" alt="Rocky autofilter Robot Logo">
 
-<img src="https://img.shields.io/github/stars/PR0FESS0R-99/LuciferMoringstar-Robot?style=social"/>   <img src="https://img.shields.io/github/forks/PR0FESS0R-99/LuciferMoringstar-Robot?style=social"/>
+<img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Robot-Logo.jpg"/>   <img src="https://img.shields.io/github/forks/sachin9742s/Rocky_autofilter_Robot?style=social"/>
 
 ----
 
@@ -10,12 +10,12 @@
 <details><summary>Read MIT License</summary>
 <p>
 <br>
-<a href="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE"><img src="https://img.shields.io/badge/Click-Here-FF3333.svg?logo=github&logoColor=FF3333"></a>
+<a href="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE"><img src="https://img.shields.io/badge/Click-Here-FF3333.svg?logo=github&logoColor=FF3333"></a>
 </a>
 </p>
 </details>
 
-Licensed under [MIT License](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE)
+Licensed under [MIT License](https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ----
@@ -30,17 +30,17 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ```
 ### Credits
 
-Thanks To [LuciferMoringstar-Robot](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot) [Orginal Code](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot)
-Thanks To [Muhammed](https://github.com/PR0FESS0R-99)
-Thanks To [Developers](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot#credits)
+Thanks To [LuciferMoringstar-Robot](https://github.com/sachin9742s/Rocky_autofilter_Robot) [Orginal Code](https://github.com/sachin9742s/Rocky_autofilter_Robot)
+Thanks To [Muhammed](https://github.com/sachin9742s)
+Thanks To [Developers](https://github.com/sachin9742s/Rocky_autofilter_Robot#credits)
 ```
 
 ----
 
 ### Credits
- [Pyrogram](https://docs.pyrogram.org/) By [Dan](https://github.com/delivrance)
+ [Pyrogram](https://docs.pyrogram.org/) By [Dan](https://github.com/sachin9742s)
 
- [Motor](https://github.com/mongodb/motor) By [Steven](https://github.com/blink1073)
+ [Motor](https://github.com/mongodb/motor) By [Steven](https://github.com/sachin9742s)
 
  Thanks To [Mahesh](https://github.com/Mahesh0253/Media-Search-bot) MediaSearch
 
@@ -58,7 +58,7 @@ Thanks To [Developers](https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot#c
 
 ### Support
 
-Join Our [Telegram Group](https://telegram.dog/Mo_Tech_Group) For Support/Assistance And Our [Channel](https://telegram.dog/Mo_Tech_YT) For Updates.
+Join Our [Telegram Group](https://telegram.dog/Kiccharequest) For Support/Assistance And Our [Channel](https://telegram.dog/Mo_Tech_YT) For Updates.
 
 Report Bugs, Give Feature Requests There..
 Do Fork And Star The Repository If You Liked It.
