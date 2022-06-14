@@ -1,5 +1,5 @@
 {
-    "name": "LuciferMoringstar-Robot",
+    "name": "Rocky_autofilter_Robot",
     "description": "When you going to send File on Telegram Channel this bot will save that in database, So you can get file in Bot PM",
     "stack": "container",
     "keywords": [
@@ -10,8 +10,8 @@
       "pyrogram",
       "bot"
     ],
-    "website": "https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot",
-    "repository": "https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot",
+    "website": "https://github.com/sachin9742s/Rocky_autofilter_Robot",
+    "repository": "https://github.com/sachin9742s/Rocky_autofilter_Robot",
     "env": {
         "API_HASH": {
             "description": "Get this value from :- https://youtu.be/5eEsvLAKVc0",
@@ -65,7 +65,7 @@
         },
         "SUPORT_CHAT": {
             "description": "Backup Support, With out @",
-            "value": "Mo_Tech_YT",
+            "value": "Kiccharequest",
             "required": true
         },
         "CHANNELS": {
@@ -74,12 +74,12 @@
         },
         "CREATOR_NAME": {
             "description": "Creator Name eg Muhammed Rk",
-            "value": "Muhammed",
+            "value": "Sachin S",
             "required": false
         },
         "CREATOR_USERNAME": {
             "description": "Creator Username Without @",
-            "value": "Pr0fess0r_99",
+            "value": "sachin_official_admin",
             "required": false
         },
         "FILTER_BUTTONS": {
