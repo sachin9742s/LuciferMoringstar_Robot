@@ -12,8 +12,8 @@ def is_enabled(value, default):
 
 
 # Creator
-CREATOR_NAME = os.environ.get("CREATOR_NAME", "𝙼𝚄𝙷𝙰𝙼𝙼𝙴𝙳")
-CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "PR0FESS0_99")
+CREATOR_NAME = os.environ.get("CREATOR_NAME", "Sachin S")
+CREATOR_USERNAME = os.environ.get("CREATOR_USERNAME", "Sachin_official_admin")
 
 # Account
 API_HASH = os.environ.get("API_HASH", "5b1d0662294a21cb54555a4fafeb0c88")
@@ -22,11 +22,11 @@ API_ID = os.environ.get("API_ID", "6170856")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "1905228806:AAH2iSgFcg5J6bqpcW11jB93wHbIOJslGTY")
 PICS = os.environ.get("PICS", "https://telegra.ph/file/034d53b5ed1d920ecab8b.jpg")
 # Database
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Gofilefhjrobot")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Rocky_autofilter_Robot")
 DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://1:1@cluster0.7tlwo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 # Chats & Users
 ADMINS = os.environ.get("ADMINS", "2028425293 1637186875")
-SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Mo_Tech_Group")
+SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "KicchaRequest")
 AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", "-1001685151224")
 CHANNELS = [int(ch) if search.search(ch) else ch for ch in os.environ.get("CHANNELS", "-1001784382279").split()]
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001590063851")
