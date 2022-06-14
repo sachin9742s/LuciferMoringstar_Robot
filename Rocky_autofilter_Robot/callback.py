@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,23 +20,23 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Telegram Link : https://telegram.dog/Kiccharequest
+# Repo Link : https://github.com/sachin9742s/Rocky_autofilter_Robot
+# License Link : https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE
 
 import asyncio 
 from pyrogram import Client as lucifermoringstar_robot, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.errors import UserIsBlocked, PeerIdInvalid, UserNotParticipant, MessageNotModified
-from LuciferMoringstar_Robot import temp, CUSTOM_FILE_CAPTION, AUTH_CHANNEL, SUPPORT, CREATOR_NAME, CREATOR_USERNAME, SAVE_FILES, GET_FILECHANNEL, ADMINS, START_MESSAGE
-from LuciferMoringstar_Robot.functions import get_size, get_settings, save_group_settings, is_subscribed
-from LuciferMoringstar_Robot.modules import autofilter_text, connection_text, spellcheck_text, welcome_text, misc_text, filecaption_text
-from LuciferMoringstar_Robot.translation import HELP_MESSAGE, ABOUT_MESSAGE, STATUS_MESSAGE, GETFILE_TEXT, USAGE_MESSAGE, NOT_SUB
+from Rocky_autofilter_Robot import temp, CUSTOM_FILE_CAPTION, AUTH_CHANNEL, SUPPORT, CREATOR_NAME, CREATOR_USERNAME, SAVE_FILES, GET_FILECHANNEL, ADMINS, START_MESSAGE
+from Rocky_autofilter_Robot.functions import get_size, get_settings, save_group_settings, is_subscribed
+from Rocky_autofilter_Robot.modules import autofilter_text, connection_text, spellcheck_text, welcome_text, misc_text, filecaption_text
+from Rocky_autofilter_Robot.translation import HELP_MESSAGE, ABOUT_MESSAGE, STATUS_MESSAGE, GETFILE_TEXT, USAGE_MESSAGE, NOT_SUB
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, make_inactive
 from database.autofilter_mdb import Media, get_file_details
 from database.chats_users_mdb import db
 
-@lucifermoringstar_robot.on_callback_query()
+@Rocky_autofilter_Robot.on_callback_query()
 async def cb_handler(bot, update):
 
     try:
@@ -186,7 +186,7 @@ async def cb_handler(bot, update):
                 await save_group_settings(grpid, set_type, True)
             settings = await get_settings(grpid)
             if settings is not None:
-                pr0fess0r_99 = [[
+                sachin9742s = [[
                  InlineKeyboardButton('𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝚄𝚃𝚃𝙾𝙽', callback_data=f'settings#button#{settings["button"]}#{str(grp_id)}'),        
                  InlineKeyboardButton('𝚂𝙸𝙽𝙶𝙻𝙴' if settings["button"] else '𝙳𝙾𝚄𝙱𝙻𝙴', callback_data=f'settings#button#{settings["button"]}#{str(grp_id)}')
                  ],[
@@ -205,16 +205,16 @@ async def cb_handler(bot, update):
                  InlineKeyboardButton('𝙵𝙸𝙻𝙴 𝙼𝙾𝙳𝙴', callback_data=f'settings#filemode#{settings["filemode"]}#{str(grp_id)}'),
                  InlineKeyboardButton('𝙿𝙼' if settings["filemode"] else '𝙲𝙷𝙰𝙽𝙽𝙴𝙻', callback_data=f'settings#filemode#{settings["filemode"]}#{str(grp_id)}')           
                  ]]
-                pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-                await update.message.edit_reply_markup(reply_markup=pr0fess0r_99)
+                sachin9742s = InlineKeyboardMarkup(sachin9742s)
+                await update.message.edit_reply_markup(reply_markup=sachin9742s)
 
-        elif update.data.startswith("luciferGP"):
+        elif update.data.startswith("RockyGP"):
             mrk, file_id = update.data.split("#")
-            file_details_pr0fess0r99 = await get_file_details(file_id)
+            file_details_sachin9742s = await get_file_details(file_id)
             settings = await get_settings(update.message.chat.id)
-            if not file_details_pr0fess0r99:
+            if not file_details_sachin9742s:
                 return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!')
-            files = file_details_pr0fess0r99[0]
+            files = file_details_sachin9742s[0]
             title = files.file_name
             size = get_size(files.file_size)
 
@@ -231,7 +231,7 @@ async def cb_handler(bot, update):
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%Rocky_autofilterBOT%0A@{temp.Bot_Username}") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
@@ -272,7 +272,7 @@ async def cb_handler(bot, update):
                 await asyncio.sleep(30)
                 await dellogs.delete()
                 
-        elif update.data.startswith("luciferPM"):
+        elif update.data.startswith("RockyPM"):
             mrk, file_id = update.data.split("#")
             # if not await db.is_user_exist(update.from_user.id):
                 # dellogs=await update.message.reply_text(f"""<b>𝙷𝙴𝚈 {update.from_user.id} 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>{title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size} """, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
@@ -285,14 +285,14 @@ async def cb_handler(bot, update):
                 # await asyncio.sleep(30)
                 # await dellogs.delete()
                 return
-            file_details_pr0fess0r99 = await get_file_details(file_id)
-            if not file_details_pr0fess0r99:
+            file_details_sachin9742s = await get_file_details(file_id)
+            if not file_details_sachin9742s:
                 return await update.answer('𝙵𝙸𝙻𝙴 𝙽𝙾𝚃 𝙵𝙾𝚄𝙽𝙳...!')
-            files = file_details_pr0fess0r99[0]
+            files = file_details_sachin9742s[0]
             title = files.file_name
             size = get_size(files.file_size)
             caption = CUSTOM_FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%40LuciferMoringstar_Robot%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%Rocky_autofilterBOT%0A@{temp.Bot_Username}") ]]
             try:
                 await bot.send_cached_media(chat_id=update.from_user.id, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons), protect_content=SAVE_FILES)            
             except Exception as e:
@@ -304,7 +304,7 @@ async def cb_handler(bot, update):
               
         elif update.data == "start":
             buttons = [[ InlineKeyboardButton("× 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ×", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ],
-                      [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="t.me/Mo_Tech_YT") ],
+                      [ InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃 💬", url=f"t.me/{SUPPORT}"), InlineKeyboardButton("𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="t.me/Kiccha_OTT") ],
                       [ InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"), InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃 🤠", callback_data="about") ]] 
             await update.message.edit(START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(buttons))
 
@@ -318,9 +318,9 @@ async def cb_handler(bot, update):
                 pass
         elif update.data == "about":
             try:
-                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot")],
+                buttons = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/sachin9742s/Rocky_autofilter_Robot")],
                       [ InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start"), InlineKeyboardButton("𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴", callback_data="usage"), InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data="close") ]]                     
-                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot"), reply_markup=InlineKeyboardMarkup(buttons))
+                await update.message.edit(ABOUT_MESSAGE.format(name=CREATOR_NAME, username=CREATOR_USERNAME, py3_version=temp.PY3_VERSION, pyro_version=temp.PYRO_VERSION, version=temp.BOT_VERSION, source="https://github.com/sachin9742s/Rocky_autofilter_Robot"), reply_markup=InlineKeyboardMarkup(buttons))
             except MessageNotModified:
                 pass
         elif update.data == "usage":
@@ -447,10 +447,10 @@ async def cb_handler(bot, update):
                 stat = "🅳︎🅸︎🆂︎🅲︎🅾︎🅽︎🅽︎🅴︎🅲︎🆃︎"
                 cb = "disconnect"
 
-            pr0fess0r_99 = [[ InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}") ],
+            sachin9742s = [[ InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}") ],
                             [ InlineKeyboardButton("𝙳𝙴𝙻𝙴𝚃𝙴", callback_data=f"deletecb:{group_id}"), InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="backcb") ]]         
-            pr0fess0r_99 = InlineKeyboardMarkup(pr0fess0r_99)
-            await update.message.edit("""𝙶𝚁𝙾𝚄𝙿 𝙽𝙰𝙼𝙴: **{title}**\n 𝙶𝚁𝙾𝚄𝙿 𝙸𝙳: `{group_id}`""", reply_markup=pr0fess0r_99)        
+            sachin9742s = InlineKeyboardMarkup(sachin9742s)
+            await update.message.edit("""𝙶𝚁𝙾𝚄𝙿 𝙽𝙰𝙼𝙴: **{title}**\n 𝙶𝚁𝙾𝚄𝙿 𝙸𝙳: `{group_id}`""", reply_markup=sachin9742s)        
             return
 
         elif update.data == "delallconfirm":
