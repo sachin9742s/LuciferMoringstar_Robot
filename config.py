@@ -1,5 +1,5 @@
 # MIT License
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 import os, re
 search = re.compile(r'^.\d+$')
 def is_enabled(value, default):
