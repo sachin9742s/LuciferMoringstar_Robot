@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,16 +20,16 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+# Telegram Link : https://telegram.dog/Kiccharequest
+# Repo Link : https://github.com/sachin9742s/Rocky_autofilter_Robot
+# License Link : https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE
  
 from pyrogram import Client as lucifermoringstar_robot, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant
-from LuciferMoringstar_Robot.modules import group_filters, pm_filters
-from LuciferMoringstar_Robot import AUTH_GROUPS, AUTH_USERS, LOG_CHANNEL, temp, COMMANDS, AUTH_CHANNEL
-from LuciferMoringstar_Robot.translation import CHAT_LOGS_MESSAGE
+from Rocky_autofilter_Robot.modules import group_filters, pm_filters
+from Rocky_autofilter_Robot import AUTH_GROUPS, AUTH_USERS, LOG_CHANNEL, temp, COMMANDS, AUTH_CHANNEL
+from Rocky_autofilter_Robot.translation import CHAT_LOGS_MESSAGE
 from database.chats_users_mdb import db
 
 
