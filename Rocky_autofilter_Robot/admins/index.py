@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,16 +20,16 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-# Telegram Link : https://telegram.dog/Mo_Tech_Group
-# Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
-# License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
- 
+# Telegram Link : https://telegram.dog/Kiccharequest
+# Repo Link : https://github.com/sachin9742s/Rocky_autofilter_Robot
+# License Link : https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/Rocky_autofilter_Robot/LICENSE
+
 import logging, asyncio, re
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait
 from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, ChatAdminRequired, UsernameInvalid, UsernameNotModified
-from LuciferMoringstar_Robot import ADMINS, LOG_CHANNEL, temp
+from Rocky_autofilter_Robot import ADMINS, LOG_CHANNEL, temp
 from database.autofilter_mdb import save_file
 
 logger = logging.getLogger(__name__)
@@ -56,7 +56,7 @@ async def index_files(bot, update):
         await bot.send_message(int(from_user),
                                "𝚈𝙾𝚄𝚁 𝚂𝚄𝙱𝙼𝙸𝚂𝚂𝙸𝙾𝙽 𝙵𝙾𝚁 𝙸𝙽𝙳𝙴𝚇𝙸𝙽𝙶 {} 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙰𝙲𝙲𝙴𝙿𝚃𝙴𝙳 𝙱𝚈 𝙾𝚄𝚁 𝙼𝙾𝙳𝙴𝚁𝙰𝚃𝙾𝚁𝚂 𝙰𝙽𝙳 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙰𝙳𝙳𝙴𝙳 𝚂𝙾𝙾𝙽".format(chat),
                                reply_to_message_id=int(lst_msg_id))
-    pr0fess0r = [[ InlineKeyboardButton('𝚂𝚃𝙾𝙿', callback_data='close') ]]
+    sachin9742s = [[ InlineKeyboardButton('𝚂𝚃𝙾𝙿', callback_data='close') ]]
     await update.message.edit(text = "𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙸𝙽𝙳𝙴𝚇𝙸𝙽𝙶..", reply_markup=InlineKeyboardMarkup(pr0fess0r))
     try:
         chat = int(chat)
