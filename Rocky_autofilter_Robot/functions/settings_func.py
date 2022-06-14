@@ -23,7 +23,21 @@
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
 # Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+ 
+from database.chats_users_mdb import db
 
-def split_list(l, n):
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
+SETTINGS = {}
+
+async def get_settings(group_id):
+    settings = SETTINGS.get(group_id)
+    if not settings:
+        settings = await db.get_settings(group_id)
+        SETTINGS[group_id] = settings
+    return settings
+    
+async def save_group_settings(group_id, key, value):
+    current = await get_settings(group_id)
+    current[key] = value
+    SETTINGS[group_id] = current
+    await db.update_settings(group_id, current)
+   

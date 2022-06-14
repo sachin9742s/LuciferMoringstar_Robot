@@ -23,7 +23,14 @@
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
 # Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+ 
+def get_size(size):
+    """Get size in readable format"""
 
-def split_list(l, n):
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
+    units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
+    size = float(size)
+    i = 0
+    while size >= 1024.0 and i < len(units):
+        i += 1
+        size /= 1024.0
+    return "%.2f %s" % (size, units[i])

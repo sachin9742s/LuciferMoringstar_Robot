@@ -24,6 +24,22 @@
 # Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
-def split_list(l, n):
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
+from pyrogram.types import Message
+
+def get_file_id(update: Message):
+    if update.media:
+        for message_type in (
+            "photo",
+            "animation",
+            "audio",
+            "document",
+            "video",
+            "video_note",
+            "voice",
+            "sticker"
+        ):
+            obj = getattr(msg, message_type)
+            if obj:
+                setattr(obj, "message_type", message_type)
+                return obj
+

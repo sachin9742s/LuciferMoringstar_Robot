@@ -23,7 +23,23 @@
 # Telegram Link : https://telegram.dog/Mo_Tech_Group
 # Repo Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
+ 
+import logging
+from pyrogram import enums
+from pyrogram.errors import UserNotParticipant
+from LuciferMoringstar_Robot import AUTH_CHANNEL
 
-def split_list(l, n):
-    for i in range(0, len(l), n):
-        yield l[i:i + n]
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+async def is_subscribed(bot, update):
+    try:
+        user = await bot.get_chat_member(AUTH_CHANNEL, update.from_user.id)
+    except UserNotParticipant:
+        pass
+    except Exception as e:
+        logger.exception(e)
+    else:
+        if user.status != enums.ChatMemberStatus.RESTRICTED:
+            return True
+    return False
