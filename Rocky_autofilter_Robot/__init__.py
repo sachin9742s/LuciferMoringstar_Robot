@@ -1,5 +1,5 @@
 # MIT License
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 from os import environ
 from config import ( is_enabled, search, AUTH_GROUPS, AUTH_USERS, ADMINS, SUPPORT_CHAT, CREATOR_USERNAME, CREATOR_NAME, AUTH_CHANNEL,
     PICS, BOT_TOKEN, API_ID, API_HASH, DATABASE_NAME, DATABASE_URI, CHANNELS, LOG_CHANNEL, FILTER_BUTTONS, GET_FILECHANNEL )
@@ -50,7 +50,7 @@ class temp(object):
     BANNED_USERS = []
     ME = None # User Id
     Bot_Username = None # Username
-    Bot_Name = "LuciferMoringstar" # Full Name 
+    Bot_Name = "RockyMoringstar" # Full Name 
     BUTTONS = {} # AutoFilter
     CURRENT = int(environ.get("SKIP", 2)) # Skip Files
     CANCEL = False # Cancel Index
