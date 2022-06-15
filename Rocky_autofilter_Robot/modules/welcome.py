@@ -29,7 +29,7 @@ from pyrogram import Client as lucifermoringstar_robot, filters
 from Rocky_autofilter_Robot.functions import get_settings
 from pyrogram.errors import ChatWriteForbidden
 
-@Rocky_autofilter_Robot.on_message(filters.group & filters.new_chat_members)
+@lucifermoringstar_robot.on_message(filters.group & filters.new_chat_members)
 async def welcome(client, update):
     try:
         try:
