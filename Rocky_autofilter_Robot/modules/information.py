@@ -26,10 +26,10 @@
 
 import os
 from pyrogram import Client as lucifermoringstar_robot, filters, enums
-from LuciferMoringstar_Robot.functions import get_file_id, extract_user
+from Rocky_autofilter_Robot.functions import get_file_id, extract_user
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Rocky_autofilter_Robot.on_message(filters.command('id'))
+@lucifermoringstar_robot.on_message(filters.command('id'))
 async def showid(client, update):
     chat_type = update.chat.type
     if chat_type == enums.ChatType.PRIVATE:
@@ -55,7 +55,7 @@ async def showid(client, update):
  
 
 
-@Rocky_autofilter_Robot.on_message(filters.command(["info"]))
+@lucifermoringstar_robot.on_message(filters.command(["info"]))
 async def who_is(client, message):
     # https://github.com/SpEcHiDe/PyroGramBot/blob/master/pyrobot/plugins/admemes/whois.py#L19
     status_message = await message.reply_text("`𝙵𝙴𝚃𝙲𝙷𝙸𝙽𝙶 𝚄𝚂𝙴𝚁 𝙸𝙽𝙵𝙾...`")
