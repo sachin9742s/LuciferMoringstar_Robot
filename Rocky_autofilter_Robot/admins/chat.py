@@ -28,7 +28,7 @@ from pyrogram import Client as lucifermoringstar_robot , filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from Rocky_autofilter_Robot import ADMINS, CREATOR_USERNAME
 
-@Rocky_autofilter_Robot.on_message((filters.group | filters.private) & filters.command('leave') & filters.user(ADMINS))
+@lucifermoringstar_robot.on_message((filters.group | filters.private) & filters.command('leave') & filters.user(ADMINS))
 async def leave_bot(bot, update):
     if len(update.command) == 1:
         return await update.reply_text("𝙶𝙸𝚅𝙴 𝙼𝙴 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙸𝙳")
