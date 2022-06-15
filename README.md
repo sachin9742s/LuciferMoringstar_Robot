@@ -30,8 +30,8 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ```
 ### Credits
 
-Thanks To [LuciferMoringstar-Robot](https://github.com/sachin9742s/Rocky_autofilter_Robot) [Orginal Code](https://github.com/sachin9742s/Rocky_autofilter_Robot)
-Thanks To [Muhammed](https://github.com/sachin9742s)
+Thanks To [Rocky_autofilter_Robot](https://github.com/sachin9742s/Rocky_autofilter_Robot) [Orginal Code](https://github.com/sachin9742s/Rocky_autofilter_Robot)
+Thanks To [sachin9742s](https://github.com/sachin9742s)
 Thanks To [Developers](https://github.com/sachin9742s/Rocky_autofilter_Robot#credits)
 ```
 
@@ -52,7 +52,7 @@ Thanks To [Developers](https://github.com/sachin9742s/Rocky_autofilter_Robot#cre
 
  [No Helper. Done Alone](https://github.com/PR0FESS0R_99) Creator
 
- Thanks To [Muhammed](https://github.com/PR0FESS0R_99) Me
+ Thanks To [sachin9742s](https://github.com/PR0FESS0R_99) Me
 
 ----
 
