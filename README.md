@@ -50,32 +50,26 @@ Thanks To [Developers](https://github.com/sachin9742s/Rocky_autofilter_Robot#cre
 
  Thanks To [Subinps](https://github.com/subinps/Media-Search-bot) AutoFilter
 
- [No Helper. Done Alone](https://github.com/PR0FESS0R_99) Creator
+ [No Helper. Done Alone](https://github.com/sachin9742s) Creator
 
- Thanks To [sachin9742s](https://github.com/PR0FESS0R_99) Me
+ Thanks To [sachin9742s](https://github.com/sachin9742s) Me
 
 ----
 
 ### Support
 
-Join Our [Telegram Group](https://telegram.dog/Kiccharequest) For Support/Assistance And Our [Channel](https://telegram.dog/Mo_Tech_YT) For Updates.
+Join Our [Telegram Group](https://telegram.dog/Kiccharequest) For Support/Assistance And Our [Channel](https://telegram.dog/Kiccha_OTT) For Updates.
 
 Report Bugs, Give Feature Requests There..
 Do Fork And Star The Repository If You Liked It.
 
-<a href="https://telegram.dog/Mo_Tech_YT"><img alt="telegram" src="https://img.shields.io/badge/Updates-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
-<a href="https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ"><img src="https://img.shields.io/badge/Mo-Tech-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<a href="https://telegram.dog/Mo_Tech_Group"><img alt="telegram" src="https://img.shields.io/badge/Group-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
+<a href="https://telegram.dog/Kiccha_OTT"><img alt="telegram" src="https://img.shields.io/badge/Updates-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
+<a href="https://telegram.dog/Kiccharequest"><img alt="telegram" src="https://img.shields.io/badge/Group-%22B1B17.svg?&logo=telegram&logoColor=white"></a>
 
 ----
 
-
-
-
-
-
 ### Bot Features
-* [x
+* [x] Index Files
 
 * [x] Group Filter
 
@@ -111,7 +105,7 @@ Do Fork And Star The Repository If You Liked It.
 
 * ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
 
-* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@MT_MytelegramOrg_Bot](http://www.telegram.dog/MT_MytelegramOrg_Bot)__
+* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org)
 
 * ->__Your Telegram Id From [@MT_ID_Bot](http://www.telegram.dog/MT_ID_Bot)__
 
@@ -125,9 +119,9 @@ Do Fork And Star The Repository If You Liked It.
 
 `ADMINS` : Username or ID of Admin. Separate multiple Admins by space
 
-`API_HASH` : this value from :- [Click Here](https://youtu.be/5eEsvLAKVc0)
+`API_HASH` : this value from :- [Click Here](http://www.my.telegram.org)
 
-`API_ID` : this value from :- [Click Here](https://youtu.be/5eEsvLAKVc0)
+`API_ID` : this value from :- [Click Here](http://www.my.telegram.org)
 
 `AUTH_CHANNEL` : ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot. (ForceSub)
 
@@ -135,7 +129,7 @@ Do Fork And Star The Repository If You Liked It.
 
 `AUTH_GROUPS` : ID of groups which bot should work as autofilter, bot can only work in thease groups. If not given , bot can be used in any group.
 
-`BOT_TOKEN` : Get this value from :- [Click Here](https://youtu.be/cB4UduCcNWs)
+`BOT_TOKEN` : Get this value from :- [Click Here](http://www.telegram.dog/botfather)
 
 `CACHE_TIME` : The maximum amount of time in seconds that the result of the inline query may be cached on the server
  
@@ -147,15 +141,15 @@ Do Fork And Star The Repository If You Liked It.
  
 `CUSTOM_FILE_CAPTION` : A custom file caption for your files. formatable with , {mention} , {file_name}, {size}, {caption}, eg `hey {mention}\n\n<code>{file_name}</code>`
 
-`DATABASE_NAME` : (database : store name) Get this value from :- [Website](https://www.mongodb.com), For more help watch this video :- [Video](https://youtu.be/mD9veNL7KoE)
+`DATABASE_NAME` : (database : store name) Get this value from :- [Website](https://www.mongodb.com), 
  
-`DATABASE_URI` : (database : store) Get this value from :- [Website](https://www.mongodb.com), For more help watch this video :- [Video](https://youtu.be/mD9veNL7KoE)
+`DATABASE_URI` : (database : store) Get this value from :- [Website](https://www.mongodb.com),
 
 `FILTER_BUTTONS` : Result Button Count [ > 3 : < 45 ]
 
 `LOG_CHANNEL` : Bot Logs, Give a channel id with -100xxxxxxx
 
-`PICS` : (random pics support | separate multiple pictures by space) Get this value from :- [Click Here](https://telegram.dog/Kiccharequest)
+`PICS` : (random pics support | separate multiple pictures by space) Get this value from :- [Click Here](http://www.telegram.dog/MT_TelegraPH_Bot)
 
 `SUPORT_CHAT` : Backup Support, With out @KicchaRequedt
 
