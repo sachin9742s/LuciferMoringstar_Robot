@@ -69,13 +69,13 @@ Do Fork And Star The Repository If You Liked It.
 
 ----
 
-### Subscribe
-<a href="https://youtube.com/c/MoTech_YT"> <img src="https://youtube.com/c/MoTech_YT?V?label=Subscribers&style=for-the-badge&color=red&labelColor=ce463"/> </a>
 
-----
+
+
+
 
 ### Bot Features
-* [x] Index Files
+* [x
 
 * [x] Group Filter
 
@@ -155,9 +155,9 @@ Do Fork And Star The Repository If You Liked It.
 
 `LOG_CHANNEL` : Bot Logs, Give a channel id with -100xxxxxxx
 
-`PICS` : (random pics support | separate multiple pictures by space) Get this value from :- [Click Here](https://telegram.dog/MT_TelegraPH_Bot)
+`PICS` : (random pics support | separate multiple pictures by space) Get this value from :- [Click Here](https://telegram.dog/Kiccharequest)
 
-`SUPORT_CHAT` : Backup Support, With out @Mo_Tech_YT
+`SUPORT_CHAT` : Backup Support, With out @KicchaRequedt
 
 ----
 
@@ -167,3 +167,6 @@ Do Fork And Star The Repository If You Liked It.
 ----
 
 # END
+
+
+### -- Thankyou For Use --
