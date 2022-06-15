@@ -161,46 +161,9 @@ Do Fork And Star The Repository If You Liked It.
 
 ----
 
-### How To Deploy
-<a href="https://youtu.be/-xDQbsF-wek"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/-xDQbsF-wek?style=social">
-
-----
-
 ### Deploy To Heroku
-<a href="https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot"><img src="https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LuciferMoringstar_Robot/modules/logo/LuciferMoringstar-Deploy-To-Heroku.jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
-
-----
-
-### Error 
-<a href="https://youtu.be/Zsknt_nY2LQ"><img src="https://telegra.ph/file/5c98868b0eea075cb7c77.jpg" alt="PR0FESS0R-99" border="0" height="125" width="200" align="center" /></a>
+<a href="https://heroku.com/deploy?template=https://github.com/sachin9742s/Rocky_autofilter_Robot"><img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Deploy-To-Heroku.jpg" alt="sachin9742s" border="0" height="125" width="200" align="center" /></a>
 
 ----
 
 # END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
