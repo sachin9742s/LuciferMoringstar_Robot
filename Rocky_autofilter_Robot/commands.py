@@ -38,7 +38,7 @@ from database.chats_users_mdb import db
 from database.autofilter_mdb import get_file_details
 from Rocky_autofilter_Robot.functions import get_size
 
-@Rocky_autofilter_Robot.on_message(filters.command(["start"]) & filters.private, group=1)
+@lucifermoringstar_robot.on_message(filters.command(["start"]) & filters.private, group=1)
 async def start(bot: Rocky_autofilter_Robot, update):
 
     if not await db.is_user_exist(update.from_user.id):
@@ -85,26 +85,26 @@ async def start(bot: Rocky_autofilter_Robot, update):
                         [ InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿", callback_data="help"), InlineKeyboardButton("𝙰𝙱𝙾𝚄𝚃 🤠", callback_data="about") ]] 
         await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(sachin9742s))
 
-@Rocky_autofilter_Robot.on_message(filters.command(["admin", "admins"]) & filters.private, group=2)
+@lucifermoringstar_robot.on_message(filters.command(["admin", "admins"]) & filters.private, group=2)
 async def admin(bot: Rocky_autofilter_Robot, update):
     await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=ADMIN_CMD_MESSAGE, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
 
-@Rocky_autofilter_Robot.on_message(filters.command(["about"]) & filters.private, group=3)
+@lucifermoringstar_robot.on_message(filters.command(["about"]) & filters.private, group=3)
 async def about(bot: lucifermoringstar_robot, update):
     sachin9742s = [[ InlineKeyboardButton("📦 𝚂𝙾𝚄𝚁𝙲𝙴 📦", url="https://github.com/sachin9742s/Rocky_autofilter_Robot") ],
                     [ InlineKeyboardButton("𝙷𝙾𝙼𝙴", callback_data="start"), InlineKeyboardButton("𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴", callback_data="usage"), InlineKeyboardButton("𝙲𝙻𝙾𝚂𝙴", callback_data="close") ]]                     
     await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=ABOUT_MESSAGE.format(name = CREATOR_NAME, username = CREATOR_USERNAME, py3_version = temp.PY3_VERSION, pyro_version = temp.PYRO_VERSION, version = temp.BOT_VERSION, source = "https://github.com/sachin9742s/Rocky_autofilter_Robot"), reply_markup=InlineKeyboardMarkup(sachin9742s))
 
-@Rocky_autofilter_Robot.on_message(filters.command(["usage"]) & filters.private, group=4)
+@lucifermoringstar_robot.on_message(filters.command(["usage"]) & filters.private, group=4)
 async def usage(bot: lucifermoringstar_robot, update):
     sachin9742s = [[ InlineKeyboardButton("🗑️ 𝙳𝙴𝙻𝙴𝚃𝙴 🗑️", callback_data="close") ]]
     await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=USAGE_MESSAGE.format(CREATOR_NAME, CREATOR_USERNAME), reply_markup=InlineKeyboardMarkup(sachin9742s))
 
-@Rocky_autofilter_Robot.on_message(filters.command(["broadcast"]) & filters.private, group=5)
+@lucifermoringstar_robot.on_message(filters.command(["broadcast"]) & filters.private, group=5)
 async def broadcast(bot: Rocky_autofilter_Robot, update):
     await send_broadcast(bot, update, db, send_msg, temp)
 
-@Rocky_autofilter_Robot.on_message((filters.private | filters.group) & filters.command('settings'))
+@lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('settings'))
 async def settings(bot, update):
     userid = update.from_user.id if update.from_user else None
     if not userid:
@@ -146,7 +146,7 @@ async def settings(bot, update):
         reply_markup = InlineKeyboardMarkup(buttons)
         await update.reply_text(text=SETTINGS_MESSAGE.format(title=title), reply_markup=reply_markup, disable_web_page_preview=True, reply_to_message_id=update.id)
         
-@Rocky_autofilter_Robot.on_message((filters.private | filters.group) & filters.command('set_temp'))
+@lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('set_temp'))
 async def save_template(bot, update):
     sts = await update.reply_text("⏳️")
     await asyncio.sleep(0.3)
@@ -185,7 +185,7 @@ async def save_template(bot, update):
     await save_group_settings(grp_id, 'template', sachin9742s)
     await sts.edit(f"""𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙲𝙷𝙰𝙽𝙶𝙴𝙳 𝚃𝙴𝙼𝙿𝙻𝙰𝚃𝙴 (𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝚃𝙴𝙼𝙿) 𝙵𝙾𝚁 {title} 𝚃𝙾\n\n{pr0fess0r_99}""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
 
-@Rocky_autofilter_Robot.on_message((filters.private | filters.group) & filters.command('setwelcome'))
+@lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('setwelcome'))
 async def setwelcome(client, message):
     sts = await message.reply("⏳️")
     await asyncio.sleep(0.3)
@@ -226,7 +226,7 @@ async def setwelcome(client, message):
     await sts.edit(f"""𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙲𝙷𝙰𝙽𝙶𝙴𝙳 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝙴𝚂𝚂𝙰𝙶𝙴 𝙵𝙾𝚁 {title} 𝚃𝙾\n\n{pr0fess0r_99}""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
 
 
-@Rocky_autofilter_Robot.on_message((filters.private | filters.group) & filters.command('setspell'))
+@lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('setspell'))
 async def setspell(client, message):
     sts = await message.reply("⏳️")
     await asyncio.sleep(0.3)
@@ -270,7 +270,7 @@ async def setspell(client, message):
     await save_group_settings(grp_id, 'spelltext', sachin9742s)
     await sts.edit(f"""𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙲𝙷𝙰𝙽𝙶𝙴𝙳 𝚂𝙴𝚃 𝚂𝙿𝙴𝙻𝙻 𝙲𝙷𝙴𝙲𝙺 𝙵𝙾𝚁 {title} 𝚃𝙾\n\n{pr0fess0r_99}""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
 
-@Rocky_autofilter_Robot.on_message((filters.private | filters.group) & filters.command('setcaption'))
+@lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('setcaption'))
 async def filecap(client, message):
     sts = await message.reply("⏳️")
     await asyncio.sleep(0.3)
