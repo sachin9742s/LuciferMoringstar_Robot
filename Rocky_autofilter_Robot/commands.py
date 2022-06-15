@@ -39,7 +39,7 @@ from database.autofilter_mdb import get_file_details
 from Rocky_autofilter_Robot.functions import get_size
 
 @lucifermoringstar_robot.on_message(filters.command(["start"]) & filters.private, group=1)
-async def start(bot: Rocky_autofilter_Robot, update):
+async def start(bot: lucifermoringstar_robot, update):
 
     if not await db.is_user_exist(update.from_user.id):
         await db.add_user(update.from_user.id)
@@ -86,7 +86,7 @@ async def start(bot: Rocky_autofilter_Robot, update):
         await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=START_MESSAGE.format(mention=update.from_user.mention, name=temp.Bot_Name, username=temp.Bot_Username), reply_markup=InlineKeyboardMarkup(sachin9742s))
 
 @lucifermoringstar_robot.on_message(filters.command(["admin", "admins"]) & filters.private, group=2)
-async def admin(bot: Rocky_autofilter_Robot, update):
+async def admin(bot: lucifermoringstar_robot, update):
     await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=ADMIN_CMD_MESSAGE, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("× 𝙲𝙻𝙾𝚂𝙴 ×", callback_data="close") ]] ))
 
 @lucifermoringstar_robot.on_message(filters.command(["about"]) & filters.private, group=3)
@@ -101,7 +101,7 @@ async def usage(bot: lucifermoringstar_robot, update):
     await bot.send_photo(photo=random.choice(PICS), chat_id=update.chat.id, caption=USAGE_MESSAGE.format(CREATOR_NAME, CREATOR_USERNAME), reply_markup=InlineKeyboardMarkup(sachin9742s))
 
 @lucifermoringstar_robot.on_message(filters.command(["broadcast"]) & filters.private, group=5)
-async def broadcast(bot: Rocky_autofilter_Robot, update):
+async def broadcast(bot: lucifermoringstar_robot, update):
     await send_broadcast(bot, update, db, send_msg, temp)
 
 @lucifermoringstar_robot.on_message((filters.private | filters.group) & filters.command('settings'))
