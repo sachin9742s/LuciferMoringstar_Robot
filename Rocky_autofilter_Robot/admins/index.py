@@ -57,7 +57,7 @@ async def index_files(bot, update):
                                "𝚈𝙾𝚄𝚁 𝚂𝚄𝙱𝙼𝙸𝚂𝚂𝙸𝙾𝙽 𝙵𝙾𝚁 𝙸𝙽𝙳𝙴𝚇𝙸𝙽𝙶 {} 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙰𝙲𝙲𝙴𝙿𝚃𝙴𝙳 𝙱𝚈 𝙾𝚄𝚁 𝙼𝙾𝙳𝙴𝚁𝙰𝚃𝙾𝚁𝚂 𝙰𝙽𝙳 𝚆𝙸𝙻𝙻 𝙱𝙴 𝙰𝙳𝙳𝙴𝙳 𝚂𝙾𝙾𝙽".format(chat),
                                reply_to_message_id=int(lst_msg_id))
     sachin9742s = [[ InlineKeyboardButton('𝚂𝚃𝙾𝙿', callback_data='close') ]]
-    await update.message.edit(text = "𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙸𝙽𝙳𝙴𝚇𝙸𝙽𝙶..", reply_markup=InlineKeyboardMarkup(pr0fess0r))
+    await update.message.edit(text = "𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙸𝙽𝙳𝙴𝚇𝙸𝙽𝙶..", reply_markup=InlineKeyboardMarkup(sachin9742s))
     try:
         chat = int(chat)
     except:
