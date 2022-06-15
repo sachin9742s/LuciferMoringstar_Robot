@@ -1,6 +1,6 @@
 # MIT License
 
-# Copyright (c) 2022 Muhammed
+# Copyright (c) 2022 sachin9742s
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@
 # License Link : https://github.com/PR0FESS0R-99/LuciferMoringstar-Robot/blob/LuciferMoringstar-Robot/LICENSE
 
 import motor.motor_asyncio, datetime
-from LuciferMoringstar_Robot import DATABASE_NAME, DATABASE_URI, SINGLE_BUTTON, REQUEST_MOVIE, SPELL_MODE, SPELL_TEXT, WELCOME_TEXT, MELCOW_NEW_USERS, MOVIE_TEXT, CUSTOM_FILE_CAPTION, SAVE_FILES, FILE_MODE    
+from Rocky_autofilter_Robot import DATABASE_NAME, DATABASE_URI, SINGLE_BUTTON, REQUEST_MOVIE, SPELL_MODE, SPELL_TEXT, WELCOME_TEXT, MELCOW_NEW_USERS, MOVIE_TEXT, CUSTOM_FILE_CAPTION, SAVE_FILES, FILE_MODE    
 
 class Database:
     
