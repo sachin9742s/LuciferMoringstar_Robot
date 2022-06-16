@@ -219,19 +219,19 @@ async def cb_handler(bot, update):
             size = get_size(files.file_size)
 
             if not await db.is_user_exist(update.from_user.id):
-                dellogs=await update.message.reply_text(f"""<b>𝙷𝙴𝚈 {update.from_user.mention} 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>{title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size} """, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
+                dellogs=await update.message.reply_text(f"""<b>Hai 👋 {query.from_user.mention}<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>[KR.OTT] {title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size}\n\n\n⚠️ <i>[𝐓𝐡𝐢𝐬 𝐟𝐢𝐥𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐨𝐫𝐦 𝐡𝐞𝐫𝐞 𝐰𝐢𝐭𝐡 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐚𝐬 𝐢𝐭 𝐡𝐚𝐬 𝐜𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭...!!!](https://t.me/c/1621799794/9)</i>\n\n<i><b>⚡ Powered by:- {query.message.chat.title}</b></i>\n\n╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙊𝙏𝙏](t.me/Kiccha_OTT)\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙍𝙚𝙦𝙪𝙚𝙨𝙩](t.me/KicchaRequest)\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝\n\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
                 await asyncio.sleep(30)
                 await dellogs.delete()
                 return
             if AUTH_CHANNEL and not await is_subscribed(bot, update):
-                dellogs=await update.message.reply_text(f"""<b>𝙷𝙴𝚈 {update.from_user.mention} 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>{title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size} """, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
+                dellogs=await update.message.reply_text(f"""<b>Hai 👋 {query.from_user.mention}<b>\n\n<b>📫 Your File is Ready</b>\n\n<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[KR.OTT] {title}</code>\n\n<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>\n\n<i><b>⚡ Powered by:- {query.message.chat.title}</b></i>\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
                 await asyncio.sleep(30)
                 await dellogs.delete()
                 return
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("⚜️ 𝚂𝙷𝙰𝚁𝙴 𝙼𝙴 𝚆𝙸𝚃𝙷 𝚈𝙾𝚄𝚁 𝙵𝚁𝙸𝙴𝙽𝙳𝚂 ⚜️", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%Rocky_autofilterBOT%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("𝗦𝗵𝗮𝗿𝗲 𝗔𝗻𝗱 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗨𝘀𝗲", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%Rocky_autofilterBOT%0A@{temp.Bot_Username}") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
@@ -244,14 +244,14 @@ async def cb_handler(bot, update):
                         await update.answer("""𝙲𝙷𝙴𝙲𝙺 𝙿𝙼, 𝙸 𝙷𝙰𝚅𝙴 𝚂𝙴𝙽𝚃 𝙵𝙸𝙻𝙴𝚂 𝙸𝙽 𝙿𝙼\n𝙲𝙻𝙸𝙲𝙺 𝙲𝙷𝙴𝙲𝙺 𝙿𝙼 𝙱𝚄𝚃𝚃𝙾𝙽""", show_alert=True)   
                     except Exception as e:
                         await update.message.reply(f"{e}")                  
-                        dellogs=await update.message.reply_text(f"""<b>𝙷𝙴𝚈 {update.from_user.mention} 𝚈𝙾𝚄𝚁 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙵𝙸𝙻𝙴 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>{title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size} """, reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
+                        dellogs=await update.message.reply_text(f"""<b>Hai 👋 {query.from_user.mention}<b>\n\n<b>📫 Your File is Ready</b>\n\n<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[KR.OTT] {title}</code>\n\n<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>\n\n<i><b>⚡ Powered by:- {query.message.chat.title}</b></i>\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
                         await asyncio.sleep(30)
                         await dellogs.delete()
                 else:
                     try:
                         invite_link = await bot.create_chat_invite_link(GET_FILECHANNEL)      
                         dlFile = await bot.send_cached_media(chat_id=GET_FILECHANNEL, file_id=file_id, caption=caption, reply_markup=InlineKeyboardMarkup(buttons))
-                        dlReply = await update.message.reply_text(GETFILE_TEXT.format(mention=update.from_user.mention, file_name=title, file_size=size), reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("📥 🅳︎🅾︎🆆︎🅽︎🅻︎🅾︎🅰︎🅳︎ 📥", url=dlFile.link) ],[ InlineKeyboardButton("⚠️𝙲𝙾𝙽'𝚃 𝙰𝙲𝙲𝙴𝚂𝚂 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴⚠️", url=invite_link.invite_link) ]] ))
+                        dlReply = await update.message.reply_text(GETFILE_TEXT.format(mention=update.from_user.mention, file_name=title, file_size=size), reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("📥 𝗗𝗼𝘄𝗻𝗹𝗼𝘀𝗱 📥", url=dlFile.link) ],[ InlineKeyboardButton("⚠️𝙲𝙾𝙽'𝚃 𝙰𝙲𝙲𝙴𝚂𝚂 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴⚠️", url=invite_link.invite_link) ]] ))
                         await asyncio.sleep(1000)
                         await dlFile.delete()
                         await dlReply.delete()
@@ -501,3 +501,4 @@ async def cb_handler(bot, update):
         await update.answer("𝚃𝙷𝙰𝚃𝚂'𝚂 𝙽𝙾𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄..!", show_alert=True)
 
 
+<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>\n\n
