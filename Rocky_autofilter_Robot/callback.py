@@ -224,14 +224,14 @@ async def cb_handler(bot, update):
                 await dellogs.delete()
                 return
             if AUTH_CHANNEL and not await is_subscribed(bot, update):
-                dellogs=await update.message.reply_text(f"""<b>Hai 👋 {query.from_user.mention}<b>\n\n<b>📫 Your File is Ready</b>\n\n<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[KR.OTT] {title}</code>\n\n<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>⚠️ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙒𝙞𝙡𝙡 𝘽𝙚 𝘿𝙚𝙡𝙚𝙩𝙚𝙙 𝘼𝙛𝙩𝙚𝙧 𝟏𝟎 𝙈𝙞𝙣𝙪𝙩𝙚𝙨…<b>\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
+                dellogs=await update.message.reply_text(f"""<b>Hai 👋 {query.from_user.mention}<b>\n\n• **𝚃𝙸𝚃𝙻𝙴** : <code>[KR.OTT] {title}</code>\n\n• **𝚂𝙸𝚉𝙴** : {size}\n\n\n⚠️ <i>[𝐓𝐡𝐢𝐬 𝐟𝐢𝐥𝐞 𝐰𝐢𝐥𝐥 𝐛𝐞 𝐝𝐞𝐥𝐞𝐭𝐞𝐝 𝐟𝐨𝐫𝐦 𝐡𝐞𝐫𝐞 𝐰𝐢𝐭𝐡 𝐢𝐧 𝟏𝟎 𝐦𝐢𝐧𝐮𝐭𝐞 𝐚𝐬 𝐢𝐭 𝐡𝐚𝐬 𝐜𝐨𝐩𝐲𝐫𝐢𝐠𝐡𝐭...!!!](https://t.me/c/1621799794/9)</i>\n\n╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╗\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙊𝙏𝙏](t.me/Kiccha_OTT)\n♻️ 𝙅𝙊𝙄𝙉 :- [𝙆𝙞𝙘𝙘𝙝𝙖 𝙍𝙚𝙦𝙪𝙚𝙨𝙩](t.me/KicchaRequest)\n╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═════╝\n\n\n♡ ㅤ   ❍ㅤ     ⎙      ⌲\nˡᶦᵏᵉ  ᶜᵒᵐᵐᵉⁿᵗ  ˢᵃᵛᵉ   ˢʰᵃʳᵉ""", reply_markup=InlineKeyboardMarkup( [[ InlineKeyboardButton("𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁𝙴", url=f"https://telegram.dog/{temp.Bot_Username}?start=muhammedrk-mo-tech-group-{file_id}") ]] ))
                 await asyncio.sleep(30)
                 await dellogs.delete()
                 return
 
             FILE_CAPTION = settings["caption"]
             caption = FILE_CAPTION.format(mention=update.from_user.mention, file_name=title, size=size, caption=files.caption)
-            buttons = [[ InlineKeyboardButton("𝗦𝗵𝗮𝗿𝗲 𝗔𝗻𝗱 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗨𝘀𝗲", url=f"https://t.me/share/url?url=Best%20AutoFilter%20Bot%20%0A%Rocky_autofilterBOT%0A@{temp.Bot_Username}") ]]
+            buttons = [[ InlineKeyboardButton("ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ", url=f"http://t.me/{temp.Bot_Username}?startgroup=true") ]]
             if settings["savefiles"]:
                 protect_content = True
             else:
