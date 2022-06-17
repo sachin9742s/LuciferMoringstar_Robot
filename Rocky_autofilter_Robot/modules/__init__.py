@@ -69,6 +69,7 @@ welcome_text = """
  • `{mention}` : 𝙽𝙰𝙼𝙴 & 𝚄𝚂𝙴𝚁 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺
  • `{name}` : 𝙵𝙸𝚁𝚂𝚃 𝙽𝙰𝙼𝙴
  • `{title}` : 𝙶𝙴𝙶 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
+ • `{title}` : 𝙶𝙴𝚃 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
 
 › 𝙴𝙶 : `/setwelcome `Hello {mention}`"""
 
