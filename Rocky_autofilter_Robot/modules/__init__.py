@@ -50,6 +50,7 @@ spellcheck_text = """
  • `{mention}` : 𝙽𝙰𝙼𝙴 & 𝚄𝚂𝙴𝚁 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺
  • `{query}` : 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝚃𝙴𝚇𝚃
  • `{name}` : 𝙵𝙸𝚁𝚂𝚃 𝙽𝙰𝙼𝙴
+ • `{title}` : 𝙶𝙴𝚃 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
 
 › 𝙴𝙶 : `/setspell Check Your Spelling {query}`"""
 
@@ -69,7 +70,6 @@ welcome_text = """
  • `{mention}` : 𝙽𝙰𝙼𝙴 & 𝚄𝚂𝙴𝚁 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺
  • `{name}` : 𝙵𝙸𝚁𝚂𝚃 𝙽𝙰𝙼𝙴
  • `{title}` : 𝙶𝙴𝙶 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
- • `{title}` : 𝙶𝙴𝚃 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
 
 › 𝙴𝙶 : `/setwelcome `Hello {mention}`"""
 
