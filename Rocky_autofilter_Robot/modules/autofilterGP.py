@@ -27,7 +27,7 @@
 import re, random, asyncio 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from Rocky_autofilter_Robot import temp, PICS, MOVIE_TEXT as REQUEST_TEXT
+from Rocky_autofilter_Robot import temp, PICS, MOVIE_TEXT as REQUEST_TEXT, FILTER_DEL_SECOND
 from Rocky_autofilter_Robot.functions import get_size, split_list, get_settings
 from database.autofilter_mdb import get_filter_results
 
