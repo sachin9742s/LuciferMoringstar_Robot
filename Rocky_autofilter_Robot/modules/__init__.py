@@ -69,8 +69,10 @@ welcome_text = """
 › /setwelcome : 𝚂𝙴𝚃 𝚂𝙿𝙴𝙻𝙻 𝙲𝙷𝙴𝙲𝙺 𝙼𝙴𝚂𝚂𝙰𝙶𝙴
 
  • `{mention}` : 𝙽𝙰𝙼𝙴 & 𝚄𝚂𝙴𝚁 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙻𝙸𝙽𝙺
- • `{name}` : 𝙵𝙸𝚁𝚂𝚃 𝙽𝙰𝙼𝙴
- • `{title}` : 𝙶𝙴𝙶 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
+ • `{first_name}` : 𝙵𝙸𝚁𝚂𝚃 𝙽𝙰𝙼𝙴
+ • `{last_name}` : 𝙻𝙰𝚂𝚃 𝙽𝙰𝙼𝙴
+ • `{username}` : 𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴
+ • `{group_name}` : 𝙲𝙷𝙰𝚃 𝙽𝙰𝙼𝙴
 
 › 𝙴𝙶 : `/setwelcome `Hello {mention}`"""
 
@@ -100,4 +102,3 @@ filecaption_text = """
  • {mention} : 𝚄𝚂𝙴𝚁 𝙿𝚁𝙾𝙵𝙸𝙻𝙴 
  • {file_name} : 𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴
  • {size} : 𝙵𝙸𝙻𝙴 𝚂𝙸𝚉𝙴
- • {caption} : 𝙶𝙴𝚃 𝙲𝙰𝙿𝚈 𝙲𝙰𝙿𝚃𝙸𝙾𝙽"""
