@@ -154,6 +154,32 @@ Do Fork And Star The Repository If You Liked It.
 `SUPORT_CHAT` : Backup Support, With out @KicchaRequedt
 
 ----
+### 🤖 BotFather Command'S
+```
+start - check bot alive 
+id - get group id & your id
+info - your information 
+stats - bot status
+settings - open your group settings 
+pmautofilter - pm autofilter control
+connect - connect a group
+disconnect - disconnect a group
+connections - all group connections
+set_temp - set custom search risult template 
+setwelcome - set custom welcome message 
+setspell - set your custom spell check reply 
+setcaption - set your custom caption
+total - admin only
+channel - admin only
+logs - admin only
+delete - admin only
+delall - admin only
+admin - admin only
+leave - admin only
+setskip - admin only
+broadcast - admin only
+```
+----
 
 ### Deploy To Heroku
 <a href="https://heroku.com/deploy?template=https://github.com/sachin9742s/Rocky_autofilter_Robot"><img src="https://github.com/sachin9742s/Rocky_autofilter_Robot/blob/master/Rocky_autofilter_Robot/modules/logo/Rocky-autofilter-Robot-Deploy-To-Heroku.jpg" alt="sachin9742s" border="0" height="125" width="200" align="center" /></a>
