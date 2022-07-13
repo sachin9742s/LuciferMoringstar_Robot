@@ -26,7 +26,7 @@
 
 from re import findall
 from imdb import IMDb
-from LuciferMoringstar_Robot import LONG_IMDB_DESCRIPTION
+from Rocky_autofilter_Robot import LONG_IMDB_DESCRIPTION
 imdb = IMDb() 
 
 # https://github.com/EvamariaTG/EvaMaria/blob/a85a4a97c56c1eff696e70379a6ee051d4780925/utils.py#L56
