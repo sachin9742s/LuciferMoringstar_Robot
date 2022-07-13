@@ -101,7 +101,7 @@ async def group_filters(client, update):
                         remove = await update.reply_photo(photo=random.choice(PICS), caption=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
                         await asyncio.sleep(FILTER_DEL_SECOND)
                         await remove.delete()
-             except:
+            except:
                 remove = await update.reply_photo(photo=random.choice(PICS), caption=MOVIE_TEXT.format(mention=update.from_user.mention, query=search, greeting=None, group_name = f"[{update.chat.title}](t.me/{update.chat.username})" or f"[{update.chat.title}](t.me/{update.from_user.username})"), reply_markup=InlineKeyboardMarkup(buttons))
                 await asyncio.sleep(FILTER_DEL_SECOND)
                 await remove.delete()
